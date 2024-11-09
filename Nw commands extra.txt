@@ -1,0 +1,33 @@
+
+
+
+1)ifconfig
+2)ping192.168.3.25
+3)nslookup www.google.com
+4)netstat
+5)sudo apt install whois
+whois www.google.com
+
+6) route -n
+7) DiG 9.16.1-Ubuntu
+8) date
+9) sudo snap install nmap  # version 7.95
+10) sudo snap install nmap
+    nmap
+11) traceroute www.google.com
+12) nmap 192.168.3.43
+
+
+
+
+
+ping codingninjas.com
+traceroute facebook.com
+nslookup google.com
+netstat codingninjas.com
+arp
+rarp
+ip a
+ifconfig
+dig codingninjas.com
+route -n

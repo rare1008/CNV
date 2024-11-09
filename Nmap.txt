@@ -1,0 +1,49 @@
+sudo apt-get install nmap
+nmap www.geeksforgeeks.org
+nmap 192.168.3.106
+nmap -p T:80 192.168.3.106
+nmap -u U:53 192.168.3.106
+nmap -p U:53 192.168.3.106
+nmap -p 80-110 192.168.3.106 range
+nmap -v -A 192.168.3.106
+nmap -sN 192.168.3.106
+nmap -sT 192.168.3.106
+sudo nmap -sN 192.168.3.106
+sudo nmap -sT 192.168.3.106
+sudo nmap -sS 192.168.3.106
+sudo nmap -sX 192.168.3.106
+sudo nmap -sU 192.168.3.106
+sudo nmap -sn 192.168.3.106
+
+
+
+
+
+
+
+
+nmap -p T:80 192.168.3.106: Scans TCP port 80 on IP 192.168.3.106.
+
+nmap -u U:53 192.168.3.106: Scans UDP port 53 on IP 192.168.3.106.
+
+nmap -p U:53 192.168.3.106: Another way to scan UDP port 53 on IP 192.168.3.106.
+
+nmap -p 80-110 192.168.3.106: Scans a range of ports (80 to 110) on IP 192.168.3.106.
+
+nmap -v -A 192.168.3.106: Performs a verbose scan with OS detection, version detection, and other advanced features on IP 192.168.3.106.
+
+nmap -sN 192.168.3.106: Conducts a TCP null scan (no flags set) on IP 192.168.3.106.
+
+nmap -sT 192.168.3.106: Performs a TCP connect scan on IP 192.168.3.106.
+
+sudo nmap -sN 192.168.3.106: Runs a TCP null scan with root privileges on IP 192.168.3.106.
+
+sudo nmap -sT 192.168.3.106: Performs a TCP connect scan with root privileges on IP 192.168.3.106.
+
+sudo nmap -sS 192.168.3.106: Conducts a TCP SYN scan (stealth scan) on IP 192.168.3.106.
+
+sudo nmap -sX 192.168.3.106: Performs a TCP Xmas scan (sets FIN, PSH, and URG flags) on IP 192.168.3.106.
+
+sudo nmap -sU 192.168.3.106: Scans all UDP ports on IP 192.168.3.106.
+
+sudo nmap -sn 192.168.3.106: Ping scan only (host discovery) on IP 192.168.3.106, without port scanning.

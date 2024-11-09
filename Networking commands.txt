@@ -1,0 +1,61 @@
+ping google.com
+ifconfig /ifconfig -a
+netstat
+nbtstat -a computer_name
+hostname
+#systeminfo
+arp -a
+nslookup google.com
+traceroute google.com
+pingpath google.com
+#getmac
+route print/ route
+#netdiag /v
+dig codingninjas.com/ dig geeksforgeeks.org
+ip addr show
+
+
+
+
+ping google.com
+
+Sends an ICMP echo request to google.com to check if the host is reachable and measures the round-trip time.
+ifconfig
+
+Displays or configures network interfaces on the system, showing their status, IP addresses, and more.
+netstat -an
+
+Displays all active network connections and their statuses in numeric format (showing IP addresses and port numbers).
+nbtstat -a computer_name
+
+(Windows-only) Displays NetBIOS over TCP/IP information for a specific computer by querying its name.
+hostname
+
+Displays the name of the current machine or system.
+systeminfo
+
+(Windows-only) Displays detailed information about the operating system, hardware, and installed software.
+arp -a
+
+Displays the ARP (Address Resolution Protocol) table, showing the mapping of IP addresses to MAC addresses.
+nslookup google.com
+
+Queries DNS to find the IP address of google.com.
+traceroute google.com
+
+Traces the path packets take to reach google.com, showing each hop along the route.
+pingpath google.com
+
+(Linux/Ubuntu) Traces the path packets take to google.com, providing a simplified trace output.
+getmac
+
+(Windows-only) Displays the MAC addresses of the network interfaces on the local machine.
+route print
+
+(Windows-only) Displays the routing table of the system, showing network routes and their associated gateways.
+netdiag /v
+
+(Windows-only) Performs network diagnostics with verbose output, displaying detailed information on the network configuration and connectivity.
+dig codingninjas.com
+
+Queries DNS for information about codingninjas.com, including IP addresses and domain name details.

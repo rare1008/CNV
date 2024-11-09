@@ -1,0 +1,14 @@
+sudo apt install telnetd -y
+sudo systemctl status inetd
+telnet www.google.com
+sudo ufw status
+sudo ufw enable
+sudo ufw allow 23
+sudo systemcte status inetd
+telnet 192.168.1.10
+telnet localhost
+
+
+
+
+TELNET stands for Teletype Network. It is a client/server application protocol that provides access to virtual terminals of remote systems on local area networks or the Internet.

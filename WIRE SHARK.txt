@@ -1,0 +1,32 @@
+INSATALLATION OF WIRE SHARK USING TERMINAL -->
+    1. sudo add-apt-repository ppa:wireshark-dev/stable
+    2. sudo apt-get update
+    3. sudo apt-get install wireshark
+    4. sudo wireshark
+
+Commands to run wireshark
+1) tcp
+2) udp
+3) tcp.port==443 or 80
+4) udp.port== 443 or 80
+5) Ip.addr == 192.168.3.39
+6) dns 
+7) arp
+8) Promiscuous mode 
+
+
+TCP: Transmission Control Protocol (TCP) is a connection-oriented protocol that ensures reliable data transfer between devices over a network.
+
+UDP: User Datagram Protocol (UDP) is a connectionless protocol that allows fast, but less reliable, data transfer without error-checking.
+
+tcp.port==443 or 80: This filter captures TCP traffic on ports 443 (HTTPS) or 80 (HTTP), commonly used for web communication.
+
+udp.port==443 or 80: This filter captures UDP traffic on ports 443 or 80, which could be used in applications needing quick data transfer over these ports.
+
+ip.addr==192.168.3.39: This filter captures all network traffic to or from the IP address 192.168.3.39.
+
+DNS: Domain Name System (DNS) translates human-readable domain names into IP addresses for locating web resources.
+
+ARP: Address Resolution Protocol (ARP) resolves IP addresses to MAC addresses, allowing devices to communicate on a local network.
+
+Promiscuous Mode: Promiscuous mode allows a network interface to capture all packets on the network, not just those addressed to it.
